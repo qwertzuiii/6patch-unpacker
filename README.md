@@ -1,2 +1,2 @@
-# ypatch-unpacker
- Unpack .ypatch files
+# 6patch-unpacker
+ Unpack .6patch files
