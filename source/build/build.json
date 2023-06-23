@@ -1,0 +1,7 @@
+{
+    "$file": "C:/EXAMPLE/PATH/main.py",
+    "$name": "6patchunpacker",
+    "$icon": "NONE",
+    "$add-data": ["C:/EXAMPLE/data;data/"],
+    "$seeconsole": true
+}
