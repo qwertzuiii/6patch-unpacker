@@ -22,7 +22,7 @@
 Arguments:
 - `-f <FILEPATH (drag & drop file into cmd)>` - Select a file (NEEDED)
 - `/create` or `/c` - Create a .6patch file
-- `/nounpack` or `/nu` - No unpacking. Letting it as a zip
+- `/nounpack` or `/nu` - No unpacking. Leaves it as a zip
 
 <h2 align="center">How to edit the source code?</h2>
 
