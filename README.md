@@ -8,7 +8,7 @@
 
 <center>
     <h1 align="center">6patch-unpacker</h1>
-    <p align="center">Unpack .6patch files</p>
+    <p align="center">Unpack (or create) .6patch files</p>
     <h2 align="center">Current versions:</h2>
     <p align="center">Release: <b>v1.1.1</b>  <a href="https://github.com/qwertzuiii/6patch-unpacker/releases/download/v1.1.1/6patchunpacker.exe">Portable</a> - <a href="https://github.com/qwertzuiii/6patch-unpacker/releases/download/v1.1.1/6patchunpacker-installer-1.1.1.msi">Setup</a></p>
 </center>
