@@ -21,8 +21,8 @@
 
 Arguments:
 - `-f <FILEPATH (drag & drop file into cmd)>` - Select a file (NEEDED)
-- `/create` - Create a .6patch file
-- `/nounpack` - No unpacking. Letting it as a zip
+- `/create` or `/c` - Create a .6patch file
+- `/nounpack` or `/nu` - No unpacking. Letting it as a zip
 
 <h2 align="center">How to edit the source code?</h2>
 

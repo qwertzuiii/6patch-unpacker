@@ -50,7 +50,7 @@ def start():
         file = arg[file]  # Set file (text)
 
 
-    if csys._check_argument_exists(arg, '/create'):  # Check if argument /create is in arugments
+    if csys._check_argument_exists(arg, '/create') or csys._check_argument_exists(arg, '/c'):  # Check if argument /create is in arugments
         create = True
     else:
         create = False
@@ -59,7 +59,7 @@ def start():
             print(f'Error: Is not a {fileend} file')
             return 1
     
-    if csys._check_argument_exists(arg, '/nounpack'):  # Check if argument /nounpack is in arugments
+    if csys._check_argument_exists(arg, '/nounpack') or csys._check_argument_exists(arg, '/nu'):  # Check if argument /nounpack is in arugments
         no_unpack = True
     else:
         no_unpack = False
