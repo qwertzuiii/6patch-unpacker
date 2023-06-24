@@ -10,7 +10,7 @@
     <h1 align="center">6patch-unpacker</h1>
     <p align="center">Unpack .6patch files</p>
     <h2 align="center">Current versions:</h2>
-    <p align="center">Release: <b>v1.0.0</b> <a href="https://github.com/qwertzuiii/b3_compiler/releases/tag/v0.4.1">download</a></p>
+    <p align="center">Release: <b>v1.1.0</b> <a href="https://github.com/qwertzuiii/6patch-unpacker/releases/tag/v1.1.0">Download</a></p>
 </center>
 
 ---
