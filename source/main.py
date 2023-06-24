@@ -3,7 +3,7 @@ import os
 
 from data.libraries import crypt_system as cryptsys
 from data.libraries import command_system as csys
-from data.libraries import extract_zip as extzip
+from data.libraries import zip_system as zsys
 # from data.libraries import json_load as jsonlib
 
 arg = sys.argv
@@ -35,17 +35,17 @@ def start():
 
     if len(arg) < 3:  # If not enough arguments
         print('Error: Invalid arguments')
-        return
+        return 1
     
     if csys._check_argument_exists(arg, '-f'):  # Set File (index)
         file = csys._get_argument_index(arg, '-f')
     else:
         print('Error: Invalid arguments')
-        return
+        return 1
 
     if file == None:  # Check if file is set in arguments
         print('Error: No file specified')
-        return
+        return 1
     else:
         file = arg[file]  # Set file (text)
 
@@ -57,7 +57,7 @@ def start():
 
         if not file.endswith(fileend):  # Check if no /create and file is no {fileend} file
             print(f'Error: Is not a {fileend} file')
-            return
+            return 1
     
     if csys._check_argument_exists(arg, '/nounpack'):  # Check if argument /nounpack is in arugments
         no_unpack = True
@@ -68,7 +68,15 @@ def start():
     if not create:
         prln('Decrypting...')
     else:
-        prln('Encrypting...')
+        prln('Checking if file is zip...')
+        # Checking if file is a zip file
+        z = zsys.is_zip_file(file)
+        if z:
+            prln('Encrypting...')
+            pass
+        else:
+            print('Error: File is not a zip file')
+            return 1
 
     tempname = ".TEMP"
     tempfile = file + tempname
@@ -103,9 +111,9 @@ def start():
 
         if not no_unpack:
             prln('Creating extraction folder...')
-            extzip.make_extraction_folder(directory)
+            zsys.make_extraction_folder(directory)
             prln('Extracting...')
-            extzip.extract_zip(tempfile, directory)
+            zsys.extract_zip(tempfile, directory)
             prln('Removing temporary files...')
             os.remove(tempfile)
         else:
@@ -116,6 +124,9 @@ def start():
 
 
 if __name__ == '__main__':
-    start()
+    st = start()
 
-    prln('Finished')
+    if st != 1:
+        prln('Finished')
+    else:
+        pass
