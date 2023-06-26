@@ -10,7 +10,8 @@
     <h1 align="center">6patch-unpacker</h1>
     <p align="center">Unpack (or create) .6patch files</p>
     <h2 align="center">Current versions:</h2>
-    <p align="center">Release: <b>v1.1.2</b>  <a href="https://github.com/qwertzuiii/6patch-unpacker/releases/download/v1.1.2/6patchunpacker.exe">Portable</a> - <a href="https://github.com/qwertzuiii/6patch-unpacker/releases/download/v1.1.2/6patch-installer-1.1.2.msi">Setup</a></p>
+    <p align="center">Release: <b>v1.1.2</b></p>
+    <p align="center">Download: <a href="https://github.com/qwertzuiii/6patch-unpacker/releases/download/v1.1.2/6patchunpacker.exe">Portable</a> - <a href="https://github.com/qwertzuiii/6patch-unpacker/releases/download/v1.1.2/6patch-installer-1.1.2.msi">Setup</a></p>
 </center>
 
 ---
