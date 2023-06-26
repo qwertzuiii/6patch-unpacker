@@ -10,16 +10,16 @@
     <h1 align="center">6patch-unpacker</h1>
     <p align="center">Unpack (or create) .6patch files</p>
     <h2 align="center">Current versions:</h2>
-    <p align="center">Release: <b>v1.1.1</b>  <a href="https://github.com/qwertzuiii/6patch-unpacker/releases/download/v1.1.1/6patchunpacker.exe">Portable</a> - <a href="https://github.com/qwertzuiii/6patch-unpacker/releases/download/v1.1.1/6patchunpacker-installer-1.1.1.msi">Setup</a></p>
+    <p align="center">Release: <b>v1.1.2</b>  <a href="https://github.com/qwertzuiii/6patch-unpacker/releases/download/v1.1.2/6patchunpacker.exe">Portable</a> - <a href="https://github.com/qwertzuiii/6patch-unpacker/releases/download/v1.1.2/6patch-installer-1.1.2.msi">Setup</a></p>
 </center>
 
 ---
 
 <h2 align="center">How to use it?</h2>
 
-For portable: `6patchunpacker.exe [ARGUMENTS]`
+**For portable:** `6patchunpacker.exe [ARGUMENTS]`
 
-For setup: `6patch [ARGUMENTS]`
+**For setup:** `6patch [ARGUMENTS]`
 
 Arguments:
 - `-f <FILEPATH (drag & drop file into cmd)>` - Select a file (NEEDED)
